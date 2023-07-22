@@ -1457,7 +1457,7 @@ ol.numbers {
 
 .logo-wrap {
   display: flex;
-  width: 100%;
+  width: 50%;
       padding-top: 10px;
 }
 
@@ -1478,7 +1478,8 @@ ol.numbers {
 
 .navbar-nav {
   margin: 0;
-  display: inline-flex;
+/*    display: inline-flex; para el trigger menu desplegable*/
+  display: contents;
   float: none;
   width: 50%;
   margin-top: 5px;
@@ -1728,8 +1729,9 @@ ol.numbers {
   .nav-type-1 .social-icons {
     position: absolute;
        top: 15px;
-    width: 100%;
-    text-align: center;
+    width: 50%;
+    text-align: -webkit-center;
+    left: 20%;
   }
 }
 
