@@ -1870,7 +1870,7 @@ ol.numbers {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     width: 100%;
     height: auto;
-    position: absolute;
+    position: fixed;
     left: 0;
   }
   .nav-item-submenu li a {
